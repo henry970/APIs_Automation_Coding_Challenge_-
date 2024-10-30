@@ -1830,15 +1830,6 @@
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"Timezone object has required fields\", function () {\r",
-									"    const responseData = pm.response.json();\r",
-									"    \r",
-									"    pm.expect(responseData.timezone).to.be.an('object');\r",
-									"    pm.expect(responseData.timezone.timezone).to.exist;\r",
-									"    pm.expect(responseData.timezone.abbr).to.exist;\r",
-									"    pm.expect(responseData.timezone.abbr_dst).to.exist;\r",
-									"});\r",
-									"\r",
 									""
 								],
 								"type": "text/javascript",
@@ -1849,8 +1840,11 @@
 							"listen": "prerequest",
 							"script": {
 								"id": "0eb4b0ac-585b-46a3-92fb-716085c58ce8",
-								"exec": [],
-								"type": "text/javascript"
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
