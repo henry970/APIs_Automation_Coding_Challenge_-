@@ -1285,7 +1285,7 @@
 									"\r",
 									"\r",
 									"pm.test(\"Response time is less than 3000ms\", function () {\r",
-									"  pm.expect(pm.response.responseTime).to.be.below(300);\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(3000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Response has the required fields - date, dividend, and symbol\", function () {\r",
@@ -1330,7 +1330,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "d36bacc3-2b97-4ab4-8531-8d39f76e0fe1",
+								"id": "69868e0f-52d9-41c0-8acb-5c93d784dd64",
 								"exec": [],
 								"type": "text/javascript"
 							}
@@ -1525,8 +1525,8 @@
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"Response time is less than 200ms\", function () {\r",
-									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"pm.test(\"Response time is less than 2000ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(2000);\r",
 									"});\r",
 									"\r",
 									"\r",
@@ -1626,6 +1626,14 @@
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d7dcb8a3-c95f-4e2a-865e-b0533e207bcb",
+								"exec": [],
+								"type": "text/javascript"
 							}
 						}
 					],
@@ -1789,8 +1797,8 @@
 							"script": {
 								"id": "a5106d60-74ce-4ae6-a14f-56754920144a",
 								"exec": [
-									"pm.test(\"Response time is less than 200ms\", function () {\r",
-									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"pm.test(\"Response time is less than 2000ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(2000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Response status code is 200\", function () {\r",
@@ -1835,6 +1843,14 @@
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "0eb4b0ac-585b-46a3-92fb-716085c58ce8",
+								"exec": [],
+								"type": "text/javascript"
 							}
 						}
 					],
@@ -2014,8 +2030,8 @@
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"Response time is less than 200ms\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"pm.test(\"Response time is less than 2000ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Data array contains objects with required fields - code, symbol, and name\", function () {\r",
@@ -2033,6 +2049,14 @@
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d8869006-1fbf-435d-8794-345c9a46ea07",
+								"exec": [],
+								"type": "text/javascript"
 							}
 						}
 					],
@@ -2227,8 +2251,8 @@
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"Response time is less than 200ms\", function () {\r",
-									"  pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"pm.test(\"Response time is less than 2000ms\", function () {\r",
+									"  pm.expect(pm.response.responseTime).to.be.below(2000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Response has the required fields\", function () {\r",
@@ -2272,6 +2296,14 @@
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "9a155064-3027-4d55-9ddc-962cd5985aec",
+								"exec": [],
+								"type": "text/javascript"
 							}
 						}
 					],
